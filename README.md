@@ -29,3 +29,4 @@ et j'informe mon client d'éxecuter le script suivant decrypt.py :
 
 Mes données sur ma machine cliente sont entièrement déchiffrées après l'exécution de ce script 
 
+J'ai également écrit un script ddos.py sensé pouvoir affaiblir ma VM cliente sans la faire tomber evidemment puisque je suis sur mon propre pc en test 
