@@ -15,7 +15,7 @@ list_all_files('/')
 
 
 
-Puis pour pouvoir savoir le faire j'ai exclu certains fichiers de la liste en l'occurence le dossier /home avec le script suivant : 
+//Puis pour pouvoir savoir le faire j'ai exclu certains fichiers de la liste en l'occurence le dossier /home avec le script suivant : 
 
 import os
 
@@ -30,5 +30,9 @@ def list_all_files_exclude_home(start_path):
 
 # Lancer la fonction
 list_all_files_exclude_home('/')
+
+Mon serveur est sur l'IP 192.168.146.138 , pour faire des tests j'ai créé une autre machine ubuntu cliente sur l'IP 192.168.146.139
+
+
 
 
