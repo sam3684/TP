@@ -10,7 +10,7 @@ Puis pour pouvoir savoir le faire j'ai exclu certains fichiers de la liste en l'
 
 Mon serveur est sur l'IP 192.168.146.138 , pour faire des tests j'ai créé une autre machine ubuntu cliente sur l'IP 192.168.146.139
 
-J'ai commencé par vouloir chiffrer un fichier spécifique sur ma machine cliente , /home/crypt_socket/sam_decrypted et dans ce cas spécifique j'ai crée deux scripts sockets qui me permettent de chiffrer en rsa le fichier sam et d'envoyer la clef privée qui me servira au déchiffrement ainsi que le fichier déchiffré sur ma machine serveur , voici les deux scripts sockets , d'abord côté serveur test_crypt.py
+J'ai commencé par vouloir chiffrer un fichier spécifique sur ma machine cliente , /home/crypt_socket/sam et dans ce cas spécifique j'ai crée deux scripts sockets qui me permettent de chiffrer en rsa le fichier sam et d'envoyer la clef privée qui me servira au déchiffrement ainsi que le fichier déchiffré sur ma machine serveur , voici les deux scripts sockets , d'abord côté serveur test_crypt.py
 
 Ensuite après avoir lancé ce script côté serveur à l'aide de la commande python3 test_crypt.py , je lance côté client le script suivant test2crypt.py , les indications dans le script indique ses actions : 
 
